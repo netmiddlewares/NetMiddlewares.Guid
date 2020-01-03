@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMiddlewares.Guid", "NetMiddlewares.Guid\NetMiddlewares.Guid.csproj", "{4C39ABBD-69DA-4A54-9E06-20FC4378A9AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMiddlewares.Guid", "NetMiddlewares.Guid\NetMiddlewares.Guid.csproj", "{4C39ABBD-69DA-4A54-9E06-20FC4378A9AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMiddlewares.Guid.Tests", "NetMiddlewares.Guid.Tests\NetMiddlewares.Guid.Tests.csproj", "{4E163FCB-C20E-421F-BAB5-DA9D8ED200A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4C39ABBD-69DA-4A54-9E06-20FC4378A9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C39ABBD-69DA-4A54-9E06-20FC4378A9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C39ABBD-69DA-4A54-9E06-20FC4378A9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E163FCB-C20E-421F-BAB5-DA9D8ED200A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E163FCB-C20E-421F-BAB5-DA9D8ED200A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E163FCB-C20E-421F-BAB5-DA9D8ED200A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E163FCB-C20E-421F-BAB5-DA9D8ED200A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
