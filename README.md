@@ -1,5 +1,5 @@
 # NetMiddlewares.Core.Guid
-.NET Core middleware to genearet an Guid and add it to the Request and Response headers
+.NET Core middleware to generate an Guid and add it to the Request and Response headers
 
 # How to use
 
@@ -13,17 +13,21 @@ public void ConfigureServices(IServiceCollection services)
 }
   ```
   
-  ## Step 2 - Add the middleware to the pipeline
+## Step 2 - Add the middleware to the pipeline
 
 ```
 public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 {
     //...
     
-    app.UseUuid();
+    app.UseGuid();
     
     //...
 }
   ```
-  
-  Done!
+
+Done!
+
+From now on, everytime the pipeline is run, the request and the response will share an unique Guid under the "X-Guid" header.
+
+The Guid is added to the request as it passes through the middleware and added to the response when the response is starting.
