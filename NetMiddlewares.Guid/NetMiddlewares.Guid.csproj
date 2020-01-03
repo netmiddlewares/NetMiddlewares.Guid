@@ -10,7 +10,7 @@
     <PackageProjectUrl>https://github.com/netmiddlewares/NetMiddlewares.Guid</PackageProjectUrl>
     <RepositoryUrl>https://github.com/netmiddlewares/NetMiddlewares.Guid</RepositoryUrl>
     <PackageTags>middleware;guid;debug</PackageTags>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>.NET Core middleware to generate a Guid and add it to a request and response header</Description>

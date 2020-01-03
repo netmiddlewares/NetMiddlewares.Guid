@@ -16,7 +16,7 @@ namespace NetFramework.Uuid
             return services;
         }
 
-        public static IApplicationBuilder UseUuid(this IApplicationBuilder app)
+        public static IApplicationBuilder UseGuid(this IApplicationBuilder app)
         {
             return app.UseMiddleware<GuidMiddleware>();
         }
