@@ -13,6 +13,9 @@
     <Version>0.0.1</Version>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>.NET Core middleware to generate a Guid and add it to a request and response header</Description>
+    <PackageReleaseNotes>First middleware version.
+Adds the header under a fixed 'X-Guid' header name. Header name configuration will be added on a future release.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
