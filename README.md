@@ -1,4 +1,11 @@
 # NetMiddlewares.Core.Guid
+
+[![GitHub issues](https://img.shields.io/github/issues/netmiddlewares/NetMiddlewares.Guid)](https://github.com/netmiddlewares/NetMiddlewares.Guid/issues)
+[![GitHub license](https://img.shields.io/github/license/netmiddlewares/NetMiddlewares.Guid)](https://github.com/netmiddlewares/NetMiddlewares.Guid)
+[![Build Status](https://travis-ci.org/netmiddlewares/NetMiddlewares.Guid.svg?branch=master)](https://travis-ci.org/netmiddlewares/NetMiddlewares.Guid)
+[![Coverage Status](https://coveralls.io/repos/github/netmiddlewares/NetMiddlewares.Guid/badge.svg?branch=master)](https://coveralls.io/github/netmiddlewares/NetMiddlewares.Guid?branch=master)
+[![Nuget](https://buildstats.info/nuget/NetMiddlewares.Guid)](http://www.nuget.org/packages/NetMiddlewares.Guid)
+
 .NET Core middleware to generate an Guid and add it to the Request and Response headers
 
 # How to use
