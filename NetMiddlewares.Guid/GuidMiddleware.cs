@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace NetFramework.Uuid
@@ -10,7 +8,7 @@ namespace NetFramework.Uuid
     {
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
-            var guid = System.Guid.NewGuid();
+            var guid = Guid.NewGuid();
             
             context.Request.Headers.Add("X-Guid", guid.ToString());
 
