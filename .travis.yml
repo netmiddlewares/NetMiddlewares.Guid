@@ -1,4 +1,6 @@
 language: csharp
 mono: none
-solution: NetMiddlewares.Guid.sln
 dotnet: 3.1.100
+script:
+ - dotnet restore
+ - dotnet build --configuration Release
