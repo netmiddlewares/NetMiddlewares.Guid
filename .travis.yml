@@ -1,4 +1,4 @@
 language: csharp
 mono: none
-solution: NetMiddlewares.Guid
+solution: NetMiddlewares.Guid.sln
 dotnet: 3.1.100
