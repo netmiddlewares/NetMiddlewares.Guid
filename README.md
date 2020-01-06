@@ -1,6 +1,5 @@
 # NetMiddlewares.Core.Guid
 
-[![GitHub issues](https://img.shields.io/github/issues/netmiddlewares/NetMiddlewares.Guid)](https://github.com/netmiddlewares/NetMiddlewares.Guid/issues)
 [![GitHub license](https://img.shields.io/github/license/netmiddlewares/NetMiddlewares.Guid)](https://github.com/netmiddlewares/NetMiddlewares.Guid)
 [![Build Status](https://travis-ci.org/netmiddlewares/NetMiddlewares.Guid.svg?branch=master)](https://travis-ci.org/netmiddlewares/NetMiddlewares.Guid)
 [![Nuget](https://buildstats.info/nuget/NetMiddlewares.Guid)](http://www.nuget.org/packages/NetMiddlewares.Guid)
