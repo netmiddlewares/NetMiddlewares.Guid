@@ -1,4 +1,4 @@
-# NetMiddlewares.Core.Guid
+# NetMiddlewares.Guid
 
 [![GitHub license](https://img.shields.io/github/license/netmiddlewares/NetMiddlewares.Guid)](https://github.com/netmiddlewares/NetMiddlewares.Guid)
 [![Build Status](https://travis-ci.org/netmiddlewares/NetMiddlewares.Guid.svg?branch=master)](https://travis-ci.org/netmiddlewares/NetMiddlewares.Guid)
